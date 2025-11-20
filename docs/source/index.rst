@@ -12,8 +12,6 @@ Nagłówek poziom 4
 
 akapit
 
-.. _my-reference-label:
-
 .. note::
 
    To jest notatka.
@@ -29,8 +27,7 @@ A oto kod blokowy:
     def hello():
         print("Hello, World!")
 
-
-It refers to the section itself, see :ref:`my-reference-label`.
+Wróć do sekcji :ref:`nagłówek poziom 1`.
 
 1. Pierwszy punkt
 2. Drugi punkt
@@ -43,7 +40,7 @@ It refers to the section itself, see :ref:`my-reference-label`.
 Python
    :definicja: Język programowania.
 
-.. image:: sciezka/do/obrazu.png
+.. image:: rtd.png
    :alt: Opis alternatywny obrazu
    :align: center
    :figwidth: 400
