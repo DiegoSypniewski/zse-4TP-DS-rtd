@@ -1,22 +1,57 @@
-Welcome to Lumache's documentation!
-===================================
+Nagłówek poziom 1
+================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Nagłówek poziom 2
+----------------
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Nagłówek poziom 3
+~~~~~~~~~~~~~~~~
+
+Nagłówek poziom 4
+^^^^^^^^^^^^^^^^
+
+akapit
+
+.. _my-reference-label:
 
 .. note::
 
-   This project is under active development.
+   To jest notatka.
 
-Contents
---------
+.. tip::
 
-.. toctree::
+   To jest wskazówka
 
-   usage
-   api
+To jest kod w jednym wierszu: ``print("Hello World")``
+
+A oto kod blokowy:
+
+    def hello():
+        print("Hello, World!")
+
+
+It refers to the section itself, see :ref:`my-reference-label`.
+
+1. Pierwszy punkt
+2. Drugi punkt
+3. Trzeci punkt
+
+* Pierwszy element
+* Drugi element
+* Trzeci element
+
+Python
+   :definicja: Język programowania.
+
+.. image:: sciezka/do/obrazu.png
+   :alt: Opis alternatywny obrazu
+   :align: center
+   :figwidth: 400
+   :figcaption: To jest podpis obrazu.
+
+
++------------+-----------+------------+
+| Nagłówek 1 | Nagłówek 2| Nagłówek 3 |
++------------+-----------+------------+
+| Komórka 1  | Komórka 2 | Komórka 3  |
++------------+-----------+------------+
